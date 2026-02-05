@@ -1,0 +1,12 @@
+//Types of Widget
+//1. Stateless Widget = immutable, making parts of your systems dividing into smaller pieces
+//2. Statefull Widget = mutable
+
+3.Material Design
+4.Cupertino Design
+
+
+1. runApp() = class that runs the entire runApp
+2. Class = can divide your system into smaller pieces with stateless Widget
+3. Scaffold
+4. MaterialApp
