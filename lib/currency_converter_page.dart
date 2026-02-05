@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CCPage extends StatefulWidget {
-  const CCPage({super.key});
-  @override
-  CurrencyConverterPage createState() => CurrencyConverterPage();
-}
-
-class CurrencyConverterPage extends State<CCPage> {
+class CurrencyConverterPage extends StatelessWidget {
+  const CurrencyConverterPage({super.key});
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
@@ -23,7 +18,10 @@ class CurrencyConverterPage extends State<CCPage> {
                 color: Colors.deepPurpleAccent,
               ),
             ),
-            TextField(),
+            TextField(
+              style: TextStyle(color: Colors.deepPurpleAccent),
+              decoration: InputDecoration(label: Text('   Amount')),
+            ),
           ],
         ),
       ),
